@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
             val sliderPager = carouselPager
             sliderPager?.adapter = sliderPagerAdapter
 
+            tab.setOnTabChangeListener {
+                pager.currentItem = it
+            }
         }
     }
 

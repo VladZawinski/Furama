@@ -20,22 +20,26 @@ class ItalicTabView @JvmOverloads constructor(
     private val view: View = View.inflate(context, R.layout.view_italic_tab, this)
 
     fun setOnTabChangeListener(onChange: (Int) -> Unit) {
+        val placeHolder = view.findViewById<TextView>(R.id.rectangleShape)
+        val byRateView = view.findViewById<TextView>(R.id.byRateTab)
 
-        view.findViewById<LinearLayout>(R.id.byRoomTab).setOnClickListener {
+        view.findViewById<TextView>(R.id.byRoomTab).setOnClickListener {
             selectedItemId = ROOM
             onChange(selectedItemId)
+            placeHolder.animate().x(0f).setDuration(100)
         }
 
-        view.findViewById<LinearLayout>(R.id.byRateTab).setOnClickListener {
+        byRateView.setOnClickListener {
             selectedItemId = BY_RATES
             onChange(selectedItemId)
+            placeHolder.animate().x(byRateView.width.toFloat()).setDuration(100)
         }
     }
 
 
     companion object {
-        private const val ROOM = 1
-        private const val BY_RATES = 2
+        const val ROOM = 0
+        const val BY_RATES = 1
     }
 
 
