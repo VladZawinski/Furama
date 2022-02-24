@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Furama</string>
+    <string name="location_sample">Furama Fiverfront,\nSingapore</string>
+    <string name="location">405 havelock Road, Singapore 169633</string>
+</resources>

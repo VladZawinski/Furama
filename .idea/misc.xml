@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.603125" />
+        <entry key="app/src/main/res/drawable/dotted_shape.xml" value="0.5927083333333333" />
+        <entry key="app/src/main/res/drawable/layout_current_location.xml" value="0.5927083333333333" />
+        <entry key="app/src/main/res/drawable/outline_parrallelogram.xml" value="0.5927083333333333" />
+        <entry key="app/src/main/res/drawable/outline_rectangle.xml" value="0.3625" />
+        <entry key="app/src/main/res/drawable/parrallelogram.xml" value="0.5927083333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5625" />
+        <entry key="app/src/main/res/layout/fragment_rate.xml" value="0.5765625" />
+        <entry key="app/src/main/res/layout/fragment_room.xml" value="0.5765625" />
+        <entry key="app/src/main/res/layout/layout_current_location.xml" value="0.5765625" />
+        <entry key="app/src/main/res/layout/layout_header.xml" value="0.3463541666666667" />
+        <entry key="app/src/main/res/layout/layout_options.xml" value="0.5911458333333334" />
+        <entry key="app/src/main/res/layout/view_italic_tab.xml" value="0.5765625" />
+        <entry key="app/src/main/res/layout/viewholder_banner.xml" value="0.3609375" />
+        <entry key="app/src/main/res/layout/viewholder_rate.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/viewholder_room.xml" value="0.5765625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
