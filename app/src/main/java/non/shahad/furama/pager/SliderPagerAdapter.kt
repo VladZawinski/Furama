@@ -13,7 +13,7 @@ import androidx.viewpager.widget.PagerAdapter
 class SliderPagerAdapter(private val context: Context) : PagerAdapter() {
 
     override fun getCount(): Int {
-        return 6
+        return 9
     }
 
     override fun isViewFromObject(view: View, `object`: Any): Boolean {

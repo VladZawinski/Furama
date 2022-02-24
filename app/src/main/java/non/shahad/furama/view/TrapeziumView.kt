@@ -6,6 +6,9 @@ import android.util.AttributeSet
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatTextView
 
+/**
+ * F** it, I didn't finish that.
+ */
 class TrapeziumView@JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
